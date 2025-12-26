@@ -3,8 +3,8 @@
 
 struct studentNode{
     char name[50];
-    int age ;
-    char sex ;
+    int age;
+    char sex;
     float gpa;
     struct studentNode *next;
 };
